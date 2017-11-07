@@ -40,7 +40,9 @@ public class Agent {// 中介类，提供了几种png操作的方法
 
 		// 按png所需格式处理
 		/*
-		 * 0x00 RGB RGB RGB RGB .... 0x00 RGB RGB RGB RGB .... .... 每行以0x00开头
+		 * 0x00 RGB RGB RGB RGB .... 
+		 * 0x00 RGB RGB RGB RGB .... 
+		 * .... 每行以0x00开头
 		 * 每个RGB三个字节大小
 		 */
 		ByteArrayOutputStream baos = new ByteArrayOutputStream(Data.length);
